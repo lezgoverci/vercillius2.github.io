@@ -1,0 +1,31 @@
+.navbar-brand img{
+    
+    max-width: 200px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+#masthead {
+    height: 580px;
+    
+
+    height: 580px;
+    background-color: rgba(6,58,148,1);
+    
+}
+
+#masthead #masthead_bg{
+    
+    background: url('../images/masthead_img.jpg');
+    background-size: cover;
+    height: 100%;
+    opacity: 0.5;
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+#masthead #masthead_content{
+    position: absolute;
+    color: white;
+    z-index: 1;
+}
