@@ -179,6 +179,22 @@
 
 }
 
+#rina-awards{
+    background-color: #EFEFEF;
+}
+
+#rina-awards .rina-award-item-container{
+    padding: 10px;
+
+}
+
+#rina-awards .rina-award-item{
+    background-color: white;
+    padding:10px;
+    min-width: 250px;
+    min-height: 250px;
+}
+
 @media(min-width: 1200px){
     #venture {
         background: linear-gradient( to right,  rgba(255,255,255,1) 20%,  rgb(255, 255, 255,0) 50%), url('../images/meeting.png');
