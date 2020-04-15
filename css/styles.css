@@ -195,6 +195,20 @@
     min-height: 250px;
 }
 
+#roger-highlight-image{
+    height: 500px;
+    width: 100%;
+    background-image: url('../images/roger1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#roger-highlight{
+    background-color: #1386AD;
+    color: white;
+    height: 400px;
+}
+
 @media(min-width: 1200px){
     #venture {
         background: linear-gradient( to right,  rgba(255,255,255,1) 20%,  rgb(255, 255, 255,0) 50%), url('../images/meeting.png');
