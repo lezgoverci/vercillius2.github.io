@@ -165,6 +165,20 @@
     }
 }
 
+#rina-highlight{
+    background-color: #1386AD;
+    color: white;
+    height: 400px;
+}
+
+#rina-highlight-image {
+    height: 500px;
+    background-image: url('../images/rina2.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
 @media(min-width: 1200px){
     #venture {
         background: linear-gradient( to right,  rgba(255,255,255,1) 20%,  rgb(255, 255, 255,0) 50%), url('../images/meeting.png');
