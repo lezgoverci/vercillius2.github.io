@@ -52,12 +52,18 @@
     padding-bottom:20px
 }
 
+
+
 #what-we-do-cards .card{
     margin-bottom: 20px;
 }
 
 #what-we-do-cards .card-body{
     padding: 20px;
+}
+
+#what-we-do {
+    background-color: #EFEFEF;
 }
 
 #criteria .criteria-item{
@@ -77,6 +83,8 @@
     width: 24px;
     margin:10px;
 }
+
+
 
 @media(min-width: 600px){
     #smart .smart-icon-container{
