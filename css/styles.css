@@ -84,9 +84,32 @@
     margin:10px;
 }
 
+#venture {
+    background: linear-gradient( to right,  rgba(255,255,255,1) 60%,  rgb(255, 255, 255,0) 90%), url('../images/meeting.png');
+    
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+#venture .benefit-item {
+    padding: 10px;
+}
+
+#venture .benefit-item img{
+    padding-right: 10px;
+}
+
 
 
 @media(min-width: 600px){
+    #venture {
+        background: linear-gradient( to right,  rgba(255,255,255,1) 20%,  rgb(255, 255, 255,0) 70%), url('../images/meeting.png');
+            
+    background-position: center;
+    background-size: cover;
+    }
+
     #smart .smart-icon-container{
         width: 150px;
         height: 150px;
@@ -97,6 +120,12 @@
 }
 
 @media(min-width: 1200px){
+    #venture {
+        background: linear-gradient( to right,  rgba(255,255,255,1) 20%,  rgb(255, 255, 255,0) 50%), url('../images/meeting.png');
+            
+    background-position: center;
+    background-size: cover;
+    }
     #smart .smart-icon-container{
         width: 180px;
         height: 180px;
