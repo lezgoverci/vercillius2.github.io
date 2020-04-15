@@ -100,6 +100,24 @@
     padding-right: 10px;
 }
 
+#companies{
+    background-color: #EFEFEF;
+}
+
+#companies .company{
+   
+    padding:10px;
+
+ 
+}
+
+.company-logo-container{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding:20px;
+}
+
 
 
 @media(min-width: 600px){
